@@ -10,3 +10,7 @@ function anotherAddEventListener (typeOfEvent, callback){
         callback(eventThatHappended);
     }
 }
+
+anotherAddEventListener("keypress", function(event){
+    console.log(event);
+})
