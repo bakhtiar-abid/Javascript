@@ -13,4 +13,4 @@ function anotherAddEventListener (typeOfEvent, callback){
 
 anotherAddEventListener("keypress", function(event){
     console.log(event);
-})
+});
